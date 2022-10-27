@@ -1,0 +1,90 @@
+/*Menu */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+.header img {
+  margin-left: 20px;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-right: 40px;
+}
+
+.menu a {
+  font-size: 1.125rem;
+  font-weight: 400;
+  border-bottom: 2px solid transparent;
+  padding: 5px 15px;
+}
+
+.menu a:hover {
+  border-bottom: 2px solid #47c698;
+  transition: 0.3s;
+}
+
+/* Introdução */
+
+.introducao {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  align-items: center;
+  max-width: 1200px;
+  margin: 80px auto;
+}
+.introducao img {
+  padding-left: 20px;
+  object-fit: cover;
+}
+
+.intro-cont {
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+}
+
+.intro-texto {
+  font-size: 4.5rem;
+  line-height: 80px;
+  font-weight: 700, bold;
+}
+.intro-texto::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 128px;
+  height: 128px;
+  background: url("/img/detalhe.svg") no-repeat center;
+  z-index: -1;
+  top: -25px;
+  left: -45px;
+}
+
+.intro-sub {
+  margin-top: 30px;
+  color: #525252;
+  font-size: 1.5rem;
+  font-weight: 400, regular;
+  padding-left: 10px;
+}
+
+/* Responsivo */
+
+@media (max-width: 920px) {
+  .intro-texto {
+    font-size: 3.8rem;
+    line-height: 70px;
+  }
+  .intro-texto::before {
+    width: 50px;
+    height: 10px;
+    left: 0px;
+    top: -10px;
+  }
+}
