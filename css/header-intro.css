@@ -13,7 +13,7 @@
 .menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   margin-right: 40px;
 }
 

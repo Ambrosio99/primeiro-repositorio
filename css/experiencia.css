@@ -29,6 +29,7 @@
   max-width: 40ch;
   color: #525252;
   margin: 40px;
+  margin-left: 80px;
 }
 .exp-texto b {
   font-weight: 700, bold;
@@ -85,6 +86,7 @@
   padding: 5px 10px;
   background-color: white;
   border-radius: 4px;
+  place-self: center;
 }
 
 /* Responsivo */
