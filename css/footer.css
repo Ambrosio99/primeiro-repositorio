@@ -40,3 +40,15 @@
   padding: 150px 0px 60px 0px;
   text-align: left;
 }
+
+.toinit {
+  color: #8f8f8f;
+  font-size: 1.125rem;
+  place-self: center;
+  margin: 135px 0px 50px 0px;
+  padding: 15px 0px 10px 0px;
+  font-weight: 400;
+}
+.toinit:hover {
+  color: white;
+}

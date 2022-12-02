@@ -43,7 +43,7 @@
   grid-template-columns: 1fr 1fr;
   position: relative;
   padding: 20px;
-  gap: 10px;
+  gap: 10px 40px;
   margin-left: 140px;
   border-radius: 4px;
   position: relative;
@@ -79,7 +79,7 @@
 .lista-exp {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 0px 10px;
 }
 .lista-exp li {
   color: #141414;

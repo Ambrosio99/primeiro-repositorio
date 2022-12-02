@@ -33,13 +33,13 @@
 }
 .formacao .subtitulo::after {
   content: "";
+  display: block;
   position: absolute;
   background: url(../img/detalhe.svg) no-repeat center;
-  width: 160px;
-  height: 120px;
-  top: 855px;
+  width: 130px;
+  height: 100px;
+  bottom: -50px;
   left: 80px;
-  z-index: unset;
 }
 .form-texto {
   font-size: 1.5rem;
@@ -47,8 +47,6 @@
   font-weight: 400, regular;
   max-width: 40ch;
   color: #a3a3a3;
-  margin: 40px;
-  margin-left: 80px;
 }
 .form-texto b {
   font-weight: 700, bold;
@@ -59,8 +57,8 @@
 
 .lista-cursos {
   display: flex;
-  gap: 25px;
-  margin-left: 125px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 .curso {
   display: grid;
